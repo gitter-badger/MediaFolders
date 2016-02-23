@@ -1,0 +1,6 @@
+language: csharp
+solution: MediaFolders.sln
+install:
+  - nuget restore MediaFolders.sln
+script:
+  - xbuild /p:Configuration=Release MediaFolders.sln
