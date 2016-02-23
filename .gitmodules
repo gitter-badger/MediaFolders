@@ -1,0 +1,3 @@
+[submodule "kritikos.libs"]
+	path = kritikos.libs
+	url = git@github.com:akritikos/kritikos.libs.git
