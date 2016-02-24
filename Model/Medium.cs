@@ -86,7 +86,7 @@ namespace com.kritikos.MediaFolders.Model
 #if(DEBUG)
             root = @"Z:";
 #else
-            Root = AppDomain.CurrentDomain.BaseDirectory;
+            root = AppDomain.CurrentDomain.BaseDirectory;
 #endif
             using (StreamWriter file = new StreamWriter(ConstructPath(root, "missing.txt")))
             {
