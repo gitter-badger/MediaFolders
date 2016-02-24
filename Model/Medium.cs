@@ -6,7 +6,7 @@ using System.Security.Authentication;
 using System.Text;
 using System.Threading.Tasks;
 
-using static com.kritikos.MediaFolders.Libs.Hashes;
+using static com.kritikos.MediaFolders.Libs.Crypto.Hashes;
 
 namespace com.kritikos.MediaFolders.Model
 {
@@ -49,7 +49,7 @@ namespace com.kritikos.MediaFolders.Model
                     RecordMissing();
                 }
             }
-        }
+         }
 
         internal void SetMainCover(string name)
         {
